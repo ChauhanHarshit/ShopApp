@@ -1,0 +1,27 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "First Node app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Harshit Chauhan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^2.7.4",
+    "express": "^4.18.2",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^3.7.4",
+    "mysql2": "^1.6.1",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "sequelize": "^5.0.0-beta.11"
+  }
+}
